@@ -19,18 +19,78 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMQ-TS-GCb">
                                 <rect key="frame" x="260" y="260" width="80" height="80"/>
-                                <color key="backgroundColor" red="0.71442945075757569" green="0.71442945075757569" blue="0.71442945075757569" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="CNr-ew-EhG"/>
                                     <constraint firstAttribute="height" constant="80" id="TcY-8B-KvH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
                                 <state key="normal" title="X"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hW-8p-jhC">
+                                <rect key="frame" x="172" y="260" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="CJJ-b5-xjN"/>
+                                    <constraint firstAttribute="width" constant="80" id="hdy-hh-oOp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGp-0g-3hE">
+                                <rect key="frame" x="260" y="172" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ZjS-F3-JXw"/>
+                                    <constraint firstAttribute="width" constant="80" id="g0G-ie-KNf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ay-BD-tuN">
+                                <rect key="frame" x="172" y="172" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9rW-5A-IgW"/>
+                                    <constraint firstAttribute="width" constant="80" id="N2P-CS-Q7I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRc-Yl-fDy">
+                                <rect key="frame" x="260" y="348" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QMj-bf-w1a"/>
+                                    <constraint firstAttribute="width" constant="80" id="zYK-w8-mu8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bm-Tf-Haw">
+                                <rect key="frame" x="348" y="260" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.71442945079999998" green="0.71442945079999998" blue="0.71442945079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="L2k-1Y-4rK"/>
+                                    <constraint firstAttribute="height" constant="80" id="vzv-jN-f7M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="68"/>
+                                <state key="normal" title="X"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksr-oI-fDw">
+                                <rect key="frame" x="340" y="172" width="8" height="256"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="IMQ-TS-GCb" firstAttribute="leading" secondItem="7hW-8p-jhC" secondAttribute="trailing" constant="8" id="8UD-L3-f7X"/>
+                            <constraint firstItem="9bm-Tf-Haw" firstAttribute="leading" secondItem="IMQ-TS-GCb" secondAttribute="trailing" constant="8" id="ANX-Oh-8XQ"/>
                             <constraint firstItem="IMQ-TS-GCb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JS6-Vh-aXC"/>
+                            <constraint firstItem="9bm-Tf-Haw" firstAttribute="centerY" secondItem="IMQ-TS-GCb" secondAttribute="centerY" id="Yqy-ux-Ps6"/>
                             <constraint firstItem="IMQ-TS-GCb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pAU-N0-0K6"/>
                         </constraints>
                     </view>
